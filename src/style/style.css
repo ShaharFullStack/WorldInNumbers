@@ -1,0 +1,104 @@
+body {
+    font-family: monospace, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-image: url(../assets/images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fefbfb;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff8204;
+    text-shadow: 2px 3px 5px grey, -3px -5px 12px white;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+button {
+    box-shadow: 3px 3px 3px #ddd, -2px -3px 6px rgb(171, 235, 228);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-shadow: 2px 3px 5px #333, -3px 3px 5px white;
+}
+
+button:hover {
+    text-shadow: none;
+    box-shadow: none;
+}
+
+#searchButton {
+    background-color: #fa9804;
+    color: rgb(250, 248, 248);
+    border-radius: 20px;
+}
+
+#clearScreenBtn {
+    background-color: #fa0404;
+    color: rgb(250, 248, 248);
+    border-radius: 20px;
+}
+
+.worldBtn {
+    margin: 6px;
+    display: grid;
+    place-items: center;
+}
+
+#allButton {
+    border-radius: 20px;
+    background-color: #0ba7c3;
+    color: white;
+}
+
+#statistics {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    color: #ddd;
+    text-shadow: 1px 1px 2px #333;
+    border: 2px solid #ddd;
+    background-color: rgba(252, 132, 3, 0.347);
+}
+
+img {
+    max-height: 30px;
+
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
